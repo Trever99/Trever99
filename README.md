@@ -14,7 +14,7 @@
 
 ## 01 — About the engineer
 
-I’m <strong>Emmanuel Simbarashe Kachasu</strong>, a software developer and Information Technology student focused on how complete systems are designed, built, integrated, and maintained — not just how they look.
+I’m <strong>Trever99</strong>, a software developer and Information Technology student focused on how complete systems are designed, built, integrated, and maintained — not just how they look.
 
 I enjoy starting with the problem: understanding the data, shaping the application structure, implementing backend logic, and connecting it to interfaces people can actually use. My work spans Flask applications, Node.js and database integration, Firebase-backed services, and Android-focused development. I’m especially interested in authentication, data modeling, API design, real-time behavior, and application architecture.
 
