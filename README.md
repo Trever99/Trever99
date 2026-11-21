@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:090909,55:650000,100:ff2020&text=EMMANUEL%20KACHASU&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=Software%20Developer%20%7C%20IT%20Student&descAlignY=60&animation=fadeIn" width="100%" alt="Emmanuel Kachasu profile banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:090909,55:650000,100:ff2020&text=EMMANUEL%20KACHASU&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=Software%20Developer%20%7C%20IT%20Student&descAlignY=60&animation=fadeIn" width="100%" alt="Emmanuel S. Kachasu profile banner" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=FF3030&center=true&vCenter=true&width=650&lines=Build.+Code.+Innovate.;Software+%26+Web+Development;Python+%7C+Java+%7C+JavaScript+%7C+PHP;Always+learning.+Always+building." alt="Typing introduction" />
 
