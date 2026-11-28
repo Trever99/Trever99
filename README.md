@@ -45,9 +45,12 @@
 
 <div align="center">
 
-<img src="assets/superbike.gif" width="48%" alt="Animated Kawasaki superbike"/>
-<br/>
-<img src="assets/mafia-coder.gif" width="48%" alt="Animated mafia coder"/>
+<table width="100%">
+<tr>
+<td align="center" width="52%"><img src="assets/superbike.gif" width="100%" alt="Animated Kawasaki superbike"/></td>
+<td align="center" width="48%"><img src="assets/mafia-coder.gif" width="100%" alt="Animated mafia boss coder"/></td>
+</tr>
+</table>
 
 **𝔓𝔄𝔖𝔖ℑ𝔒𝔑. 𝔓ℜ𝔈ℭℑ𝔖ℑ𝔒𝔑. 𝔓𝔈ℜ𝔉𝔒ℜ𝔐𝔄𝔑ℭ𝔈.**
 
