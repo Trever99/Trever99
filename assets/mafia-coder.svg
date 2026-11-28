@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 290">
+<defs>
+ <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#292929"/><stop offset="1" stop-color="#080808"/></linearGradient>
+ <linearGradient id="wood"><stop stop-color="#3a160c"/><stop offset=".5" stop-color="#8a3515"/><stop offset="1" stop-color="#270c07"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+ @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
+ @keyframes ember{0%,100%{fill:#ff4a00;opacity:.7}50%{fill:#ffc04a;opacity:1}}
+ @keyframes smoke{0%{opacity:.4;transform:translate(0,0) scale(.6)}100%{opacity:0;transform:translate(12px,-32px) scale(1.5)}}
+ @keyframes code{0%{opacity:0;transform:translateY(0)}50%{opacity:.8}100%{opacity:0;transform:translateY(-38px)}}
+ @keyframes aura{0%,100%{opacity:.2}50%{opacity:.5}}
+ @keyframes tap{0%,100%{transform:translateY(0)}50%{transform:translateY(2px)}}
+ @keyframes glance{0%,45%,100%{transform:translateX(0)}60%,80%{transform:translateX(3px)}}
+ @keyframes blink{0%,92%,100%{transform:scaleY(1)}94%{transform:scaleY(.15)}}
+ .bob{animation:bob 3s ease-in-out infinite}.ember{animation:ember 1s infinite}.smoke{animation:smoke 3s ease-out infinite}.code{animation:code 3s ease-out infinite}.aura{animation:aura 3s infinite}.tap{animation:tap .45s infinite}
+</style>
+<ellipse class="aura" cx="208" cy="145" rx="145" ry="112" fill="#a00010" filter="url(#glow)"/>
+<path d="M95 75 Q110 28 230 35 Q330 40 325 155 L295 200 L110 190Z" fill="#141414" stroke="#444" stroke-width="4"/>
+<g class="bob">
+<!-- torso -->
+<path d="M116 132 L155 102 Q205 95 250 105 L294 140 L285 223 L115 223Z" fill="url(#coat)" stroke="#555"/>
+<g stroke="#777" opacity=".65"><path d="M145 140v75 M158 138v77 M171 135v80 M184 133v82 M197 132v83 M210 132v83 M223 133v82 M236 136v79 M249 139v76"/></g>
+<!-- shirt and tie -->
+<path d="M165 108 L202 128 L239 108 L224 214 L179 214Z" fill="#e9e4dc"/>
+<path d="M196 125 L208 125 L220 160 L208 191 L195 160Z" fill="#720012" stroke="#b11"/>
+<path d="M164 112 L196 125 L184 145 L151 122Z M239 112 L208 125 L222 145 L253 122Z" fill="#151515"/>
+<!-- pocket -->
+<path d="M256 150h26v24h-26" fill="#171717" stroke="#777"/><path d="M258 152l10 12 9-12" fill="#8b0000"/>
+<!-- head -->
+<ellipse cx="205" cy="91" rx="48" ry="53" fill="#c68b64" stroke="#673c2c" stroke-width="2"/>
+<!-- scar -->
+<path d="M233 71l-10 18 8 7" stroke="#7a3027" stroke-width="3" fill="none"/>
+<!-- eyes -->
+<g class="blink"><ellipse cx="185" cy="86" rx="6" ry="4" fill="#fff"/><ellipse cx="220" cy="86" rx="6" ry="4" fill="#fff"/><g class="glance"><circle cx="187" cy="86" r="2.7"/><circle cx="222" cy="86" r="2.7"/></g></g>
+<path d="M178 76l17-4 M212 72l17 5" stroke="#24130e" stroke-width="5" stroke-linecap="round"/>
+<!-- mustache -->
+<path d="M202 108 Q187 96 173 108 Q179 121 195 115 Q205 120 210 115 Q228 121 237 108 Q220 96 208 108Z" fill="#17100d"/>
+<!-- hat -->
+<path d="M150 66 Q163 24 207 26 Q249 24 260 66 Q238 61 205 62 Q174 61 150 66Z" fill="#090909" stroke="#333" stroke-width="3"/>
+<path d="M134 67 Q206 48 276 68 Q258 83 145 82Z" fill="#101010" stroke="#555"/><path d="M160 60 Q204 57 247 61 L244 69 Q201 70 163 67Z" fill="#8b0000"/>
+<!-- arms -->
+<path d="M120 150 Q92 170 125 205 L158 194 L174 168" fill="none" stroke="#171717" stroke-width="22" stroke-linecap="round"/>
+<path d="M265 149 Q300 164 282 205 L252 197 L237 171" fill="none" stroke="#171717" stroke-width="22" stroke-linecap="round"/>
+<g class="tap"><path d="M150 194 Q170 181 190 193" fill="none" stroke="#c68b64" stroke-width="12" stroke-linecap="round"/></g><g class="tap"><path d="M236 194 Q252 182 270 195" fill="none" stroke="#c68b64" stroke-width="12" stroke-linecap="round"/></g>
+</g>
+<!-- laptop -->
+<path d="M143 199 L270 199 L300 240 L112 240Z" fill="#171717" stroke="#555" stroke-width="3"/><path d="M163 205h86v26h-86Z" fill="#080808" stroke="#333"/>
+<text x="206" y="225" font-size="20" text-anchor="middle" fill="#ff3030" filter="url(#glow)">&lt;/&gt;</text>
+<!-- tabletop -->
+<path d="M30 239 Q210 228 390 239 L405 266 Q210 280 18 266Z" fill="url(#wood)" stroke="#5c2010" stroke-width="3"/>
+<!-- whiskey glass -->
+<path d="M35 197h32l-4 38H40Z" fill="#6d3818" stroke="#b58a4a" stroke-width="2"/><path d="M38 216h27l-2 17H40Z" fill="#a66a22" opacity=".7"/>
+<!-- cash -->
+<g transform="translate(330 215)"><rect x="0" y="0" width="50" height="20" fill="#24452b" stroke="#a5b69b"/><rect x="5" y="-5" width="50" height="20" fill="#31543a" stroke="#a5b69b"/><rect x="10" y="-10" width="50" height="20" fill="#24452b" stroke="#a5b69b"/></g>
+<!-- ashtray and smoke -->
+<ellipse cx="86" cy="242" rx="20" ry="8" fill="#222" stroke="#aaa"/><path d="M78 234q-7-15 5-22t-2-18" stroke="#aaa" fill="none" stroke-width="3" opacity=".5"/><path class="smoke" d="M80 228q-15-10 1-20t-1-20" stroke="#bbb" fill="none" stroke-width="3"/>
+<!-- cigar -->
+<path d="M285 105l48-9 3 10-48 9Z" fill="#6d3b19"/><rect x="319" y="98" width="6" height="11" fill="#d3a344"/><circle class="ember" cx="339" cy="102" r="5"/>
+<g fill="#ff3030" font-size="15" font-family="monospace"><text class="code" x="85" y="180">{ }</text><text class="code" x="320" y="190">01</text><text class="code" x="350" y="160">py</text></g>
+</svg>

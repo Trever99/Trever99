@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 270">
+<defs><linearGradient id="red"><stop stop-color="#5c0000"/><stop offset=".5" stop-color="#ff3030"/><stop offset="1" stop-color="#800000"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="5"/></filter></defs>
+<style>@keyframes spin{to{transform:rotate(360deg)}}@keyframes flick{0%,100%{opacity:.5}50%{opacity:1}}@keyframes shake{0%,100%{transform:translateX(0)}50%{transform:translateX(1px)}}@keyframes road{to{stroke-dashoffset:-100}}@keyframes flame{0%,100%{opacity:.3;transform:scaleX(.8)}50%{opacity:1;transform:scaleX(1.3)}}.wheel{animation:spin 1.1s linear infinite;transform-origin:center}.bike{animation:shake .08s infinite}.beam{animation:flick 1s infinite}.flame{animation:flame .15s infinite}</style>
+<ellipse cx="320" cy="244" rx="255" ry="17" fill="#111" opacity=".8"/>
+<path d="M25 228h590" stroke="#ff3030" stroke-dasharray="30 20" stroke-width="3" style="animation:road 1s linear infinite"/>
+<g stroke="#777" stroke-width="2" fill="none"><circle cx="155" cy="190" r="65"/><circle cx="480" cy="190" r="65"/></g>
+<g class="wheel"><circle cx="155" cy="190" r="58" fill="#080808" stroke="#c00" stroke-width="9"/><circle cx="155" cy="190" r="42" fill="none" stroke="#777" stroke-width="5"/><g stroke="#777" stroke-width="4"><path d="M155 132v116M97 190h116M114 149l82 82M196 149l-82 82"/></g><circle cx="155" cy="190" r="18" fill="#900"/></g>
+<g class="wheel"><circle cx="480" cy="190" r="58" fill="#080808" stroke="#c00" stroke-width="9"/><circle cx="480" cy="190" r="42" fill="none" stroke="#777" stroke-width="5"/><g stroke="#777" stroke-width="4"><path d="M480 132v116M422 190h116M439 149l82 82M521 149l-82 82"/></g><circle cx="480" cy="190" r="18" fill="#900"/></g>
+<g class="bike">
+<path d="M160 190l115-60 120 10 85 50-90 0-70-50-70 85Z" fill="none" stroke="#555" stroke-width="14"/>
+<path d="M218 142 Q230 90 320 86 L390 105 L420 142 Q365 165 288 155Z" fill="#111" stroke="#8b0000" stroke-width="5"/>
+<path d="M265 96 Q325 58 385 92 L352 111 L285 112Z" fill="url(#red)"/>
+<path d="M285 112 L390 105 L430 150 L380 160 L342 135 L300 155 L255 145Z" fill="#090909" stroke="#ff3030" stroke-width="4"/>
+<path d="M320 128l75-15-26 27-70 10Z" fill="#8b0000"/><path d="M405 115 L465 185" stroke="#999" stroke-width="12"/><path d="M415 115l60 60" stroke="#111" stroke-width="5"/>
+<path d="M270 150l-45 35 60 0 40-40" fill="#222" stroke="#888" stroke-width="5"/>
+<path d="M295 155l-35 40 55 0 18-35" fill="#444" stroke="#777" stroke-width="3"/>
+<path d="M225 185l-65 0" stroke="#555" stroke-width="10"/><path d="M210 185l-55 5" stroke="#222" stroke-width="16"/>
+<path d="M450 125l-5-42 25-20 12 45" fill="#111" stroke="#666" stroke-width="4"/>
+<path d="M468 90l-55-10" stroke="#555" stroke-width="6"/>
+<path d="M390 105 Q440 90 450 115" fill="none" stroke="#900" stroke-width="8"/>
+<path d="M515 152l55-6 25 12-65 12Z" fill="#ff3030" filter="url(#glow)" opacity=".8"/>
+<path class="beam" d="M520 152 L630 130 L630 190 L520 165Z" fill="#ff3030" opacity=".25"/>
+<path d="M150 195l-40 10 0-14 40-4" fill="#777"/>
+<path class="flame" d="M115 204q-35-8-50 15 24-8 40 0-12-18 10-15" fill="#ff6a00"/>
+</g>
+<g stroke="#ff3030" stroke-width="3" opacity=".7"><path d="M15 90h100M0 115h75M30 140h80"/></g>
+</svg>
